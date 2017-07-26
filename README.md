@@ -28,4 +28,5 @@
 
 ## Contributors
 * Team project for the Web Authoring class, made together with:
-    * @ https://github.com/pkuzmickas
+    * https://github.com/pkuzmickas
+    * https://github.com/Windwalkerz
