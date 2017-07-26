@@ -16,4 +16,4 @@
 
 ## Contributors
 * Team project for the Web Authoring class, made together with:
-    * @ioanluca @pkuzmickas
+    * @ https://github.com/pkuzmickas
