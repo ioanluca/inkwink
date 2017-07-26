@@ -5,6 +5,18 @@
 * Doesn't have any functionality, was only made for presentation purposes
 * I was responsible for the Gallery and the Forum sections
 
+## Screenshots
+
+![banner](screenshots/banner.png)  
+
+![gallery](screenshots/gallery.png)
+
+![forum](screenshots/forum.png)
+
+![thread](screenshots/thread.png)
+
+![articles](screenshots/articles.png)
+
 ## Use 
 * Open ```index.html``` in a browser 
 * Press F11 to toggle fullscreen
