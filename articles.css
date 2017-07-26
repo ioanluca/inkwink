@@ -1,0 +1,158 @@
+.content1 {
+	background-color: white;
+	position: absolute;
+	top: 12%;
+	height: 100%;
+	width:100%;
+	z-index: -1;
+}
+
+.articleContainer {
+	position:absolute;
+	left: 25%;
+	top:3em;
+    height:20em;
+    width:50%;
+	
+	border-top: 1px solid gray;
+    /*border:0.5px solid black;*/
+	
+}
+.article2 .articleContainer {
+    position:absolute;
+	top:27em;
+ 
+}
+.article2 .picture {
+    background-image: url();
+	background: url("pictures/chinese.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.article3 .articleContainer {
+    position:absolute;
+	top:51em;
+}
+.article3 .picture {
+    background-image: url();
+	background: url("pictures/romanian.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.article4 .articleContainer {
+    position:absolute;
+	top:75em;
+}
+.article4 .picture {
+    background-image: url();
+	background: url("pictures/thailand.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.article5 .articleContainer {
+    position:absolute;
+	top:99em;
+	
+}
+.article5 .picture {
+    background-image: url();
+	background: url("pictures/kopos.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.title {
+    width:100%;
+    /*border: 0.5px solid black;*/
+}
+.titleText {
+    font-size: 3em;
+	position:absolute;
+	top: 0.15em;
+}
+.picture {
+    /*border:0.5px solid black;*/
+    position:absolute;
+    top: 5em;
+    width: 50%;
+    height: 87%;
+}
+.article1 .picture {
+    background-image: url();
+	background: url("pictures/city.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.author {
+    /*border:0.5px solid black;*/
+    position:absolute;
+    top:4.8em;
+    right:0em;
+    width:47%;
+    height:7%;
+}
+.author .authorText {
+    font-size: 2em;
+}
+.description {
+    /*border:0.5px solid black;*/
+    position:absolute;
+    top:8em;
+    right:0em;
+    width:47%;
+    height:76.6%;
+}
+a:link {
+    text-decoration: none;
+	color: rgb(227,227,227);
+}
+a:visited {
+    text-decoration: none;
+	color: rgb(227,227,227);
+}
+a:hover {
+	color:gray;
+}
+.content1 a {
+	color: black;
+}
+.content1 a:visited {
+	color: black;
+}
+header .items .logo a:hover {
+	color: rgb(227,227,227);
+}
+.description a {
+    color:black;
+	font-weight: bold;
+}
+.description a:visited {
+    color:black;
+	font-weight: bold;
+}
+.description a:hover {
+    color:black;
+	font-weight: bold;
+}
+.description a:link {
+    color:black;
+	font-weight: bold;
+}
+.article5 .articleContainer .description{
+	padding-bottom:5em;
+}
+.highlight {
+    background-color: #515151;
+    height:2.85em;
+    width:4.8em;
+}
+.highlight a:hover {
+    color: rgb(227,227,227);
+}
+body {
+	font-family: "Montserrat";
+}

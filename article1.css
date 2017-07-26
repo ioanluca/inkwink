@@ -1,0 +1,39 @@
+h1 {
+	font-size: 3em;
+	position: absolute;
+	top: 2.5em;
+	left: 16%;
+	border-bottom: 1px solid gray;
+	padding-bottom: 0.3em;
+	width:68%;
+}
+.author1 {
+	font-size: 1.7em;
+	position: absolute;
+	top: 7.6em;
+	left: 16%;
+	
+}
+.article {
+	position: absolute;
+	top:17em;
+	left: 16%;
+	width:68%;
+}
+.text {
+	margin-bottom:1em;
+}
+.textlast {
+	margin-bottom:5em;
+}
+.photograph {
+	width: 100%;
+	height:30em;
+	background-image: url();
+	background: url("pictures/portugal.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	margin-bottom: 1em;
+
+}

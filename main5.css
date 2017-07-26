@@ -1,0 +1,11 @@
+.content {
+	position: fixed;
+	top: 7em;
+	height: 100%;
+	width:100%;
+	background-image: url();
+	background: url("pictures/cars.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}

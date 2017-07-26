@@ -1,0 +1,11 @@
+.photograph {
+	width: 100%;
+	height:30em;
+	background-image: url();
+	background: url("pictures/neringa.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	margin-bottom: 1em;
+
+}

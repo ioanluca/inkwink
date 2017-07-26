@@ -1,0 +1,32 @@
+.photo-container {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 145px;
+}
+
+.photo-container img {
+  width: 57%;
+  height: 728px;;
+  border: 1.5px solid #2a2a2a;
+}
+
+#leftchange, #rightchange {
+  position: fixed;
+  top: 44%;
+  opacity: 0.5;
+  z-index: 3;
+}
+
+#leftchange:hover, #rightchange:hover {
+  opacity: 0.7;
+}
+
+#rightchange {
+  left: 78.9%;
+  transform: rotate(180deg);
+}
+
+#leftchange {
+  right: 78.9%;
+}

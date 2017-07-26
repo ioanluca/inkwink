@@ -1,0 +1,178 @@
+@font-face {
+    font-family: mont;
+    src: url(Montserrat-Regular.otf);
+}
+* {
+	font-family:mont;
+}
+header {
+	position:fixed;
+	width:100%;
+	background-color: #2a2a2a;
+	height: 7em;
+	z-index:1;
+}
+nav li{
+	display: inline-block;
+	font-family: mont;
+}
+header .leftItems {
+	position:fixed;
+	left: 20em;
+	top: 3em;
+	font-size:1.2em;
+}
+header .rightItems {
+	position:fixed;
+	right: 8em;
+	top: 3em;
+	font-size:1.2em;
+}
+header .menu a{
+	margin-left:10px;
+}
+.items li {
+	font-family: mont;
+}
+header .logo {
+	position:fixed;
+	top: 0.6em;
+    /*text-shadow: 2px 2px black;*/
+	left: 3em;
+	font-size: 3em;
+}
+
+footer {
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	height:2.2em;
+	background-color: rgb(37, 37, 37);
+	z-index:1;
+
+}
+footer .float-right {
+	position:fixed;
+    right: 9.45em;
+    bottom:0.5em;
+
+}
+footer .float-middle {
+	position: fixed;
+    right:50%;
+	bottom:0.5em;
+}
+footer .float-left {
+	position:fixed;
+    left: 9.45em;
+    bottom:0.5em;
+}
+.content {
+	position: fixed;
+	top: 7em;
+	height: 100%;
+	width:100%;
+	background-image: url();
+	background: url("pictures/city.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	z-index: -1;
+
+}
+.arrow {
+	background-image: url("pictures/arrow.png");
+   	position: absolute;
+	top: 30%;
+	height: 1em;
+	width: 1em;
+	left: 7%;
+	opacity: 0.7;
+
+
+}
+.arrow2 {
+	background-image: url("pictures/arrow.png");
+   	position: absolute;
+	top: 43.5%;
+	height: 1em;
+	width: 1em;
+	right: 7%;
+	opacity: 0.7;
+	transform: rotate(180deg);
+
+}
+/*.quoteBox {
+	background: rgba(227, 227, 227, 0.7);
+	position:absolute;
+	top:50%;
+	right: 10%;
+	width: 8em;
+	height: 3em;
+	font-family: "Arial";
+	font-size: 3em;
+	padding: 0.2em;
+
+}
+.author {
+	font-size: 0.4em;
+}*/
+
+a:link {
+    text-decoration: none;
+	color: rgb(227,227,227);
+}
+a:visited {
+    text-decoration: none;
+	color: rgb(227,227,227);
+}
+a:hover {
+	color:gray;
+}
+.content a {
+	color: black;
+}
+header .items .logo a:hover {
+	color: rgb(227,227,227);
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    rgb(227,227,227);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    rgb(227,227,227);
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    rgb(227,227,227);
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    rgb(227,227,227);
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+  line-height: normal;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  line-height: normal;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  line-height: normal;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+  line-height: normal;
+}
+form {
+	margin-left:0.7em;
+
+}
+form input {
+	width: 9em;
+	background-color: gray;
+	border: 0px;
+	padding-left: 5px;
+	border-radius: 5px;
+	height: 1.3em;
+	color: rgb(227,227,227);
+
+}

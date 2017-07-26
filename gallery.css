@@ -1,0 +1,161 @@
+.grid-container{
+  position: relative;
+  top: 150px;
+  max-width: 57%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.grid-container .grid-item:nth-child(2n) {
+  margin-left: 12%;
+}
+
+
+.grid-container li a {
+    color: #2a2a2a;
+    transition: 0.7s;
+    font-style: normal;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 17px;
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+    margin: 0 20px;
+}
+
+.grid-container li a:visited {
+  color: #2a2a2a;
+}
+
+.grid-container li a:hover {
+  color:gray;
+}
+
+.grid-container li a:focus {
+  background-color: #2a2a2a;
+  color: rgb(227,227,227);
+  padding: 5px 10px;
+  border-radius: 17px;
+  width: 0;
+  height: 0;
+  box-sizing: border-box;
+}
+
+
+.grid-container:after{
+  content:'';
+  display: inline-block;
+  width: 100%;
+}
+
+header, footer {
+  z-index: 2;
+}
+
+.grid-container ul {
+    width: 100%;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.grid-container ul li {
+    display: inline-block;
+}
+
+.grid-container hr {
+    width: 100%;
+    border: 0;
+    height: 1px;
+    z-index: 1;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.description:hover + a > img {
+  opacity: 0.3;
+}
+
+.grid-item{
+  width: 44%;
+  min-width: 33%;
+  display: inline-block;
+  margin-bottom: 10%;
+  position: relative;
+  transition: 0;
+}
+
+.grid-item img {
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 320px;
+    transition: 0.5s;
+    border: 1.5px solid #2a2a2a;
+}
+
+.grid-item a {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  width: 0;
+  color: #2a2a2a;
+}
+
+
+
+.grid-item :hover img {
+  opacity: 0.3;
+}
+
+.rating {
+  display: inline-block;
+  float:right;
+  margin-top: -4%;
+  margin-right: 4%;
+}
+
+
+.rating span {
+	font-size: 30px;
+	color: #2a2a2a;
+	cursor: pointer;
+}
+
+.rating span:hover:before {
+	content: "\2605";
+	position: absolute;
+	color: #2a2a2a;
+}
+
+.grid-item:hover .description {
+  display: block;
+}
+
+.description * {
+  transition: 2s;
+}
+
+.description {
+  position: absolute;
+    z-index: 3;
+    left: 2%;
+    top: 87%;
+    display:none;
+    color: #2a2a2a;
+    width: 100%;
+    transition: 2s;
+}
+
+.description .author {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.highlight {
+    background-color: #515151;
+    height:2.85em;
+    width:4.6em;
+	  margin-left:0.5em;
+}

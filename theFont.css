@@ -1,0 +1,7 @@
+@font-face {
+    font-family: mont;
+    src: url(Montserrat-Regular.otf);
+}
+* {
+	font-family:mont;
+}
